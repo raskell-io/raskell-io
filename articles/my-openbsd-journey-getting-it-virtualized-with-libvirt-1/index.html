@@ -45,7 +45,7 @@ Raskell
 <h1>My OpenBSD journey: Getting it virtualized with libvirt (1)</h1>
 <div class=post-meta>
 <div>
-By Raffael | <time>19-01-11</time>
+By Raffael | <time>23-02-06</time>
 | 8 minutes
 </div>
 <div class=tags>
@@ -63,7 +63,7 @@ By Raffael | <time>19-01-11</time>
 </a>
 Void Linux as my daily driver
 </h2>
-<p>Around six months ago, I decided to ditch my long in the tooth Arch-based setup on my belovest Thinkpad X1 Carbon. I&rsquo;ve been very loyal over the years, and almost came to belive that Arch will be a constant in my adult life. While I kept up with upcoming technologies, I somehow lost track of the ever so diversifying landscape of Linux distributions. It took me a while of constantly coming across a generically named reference to what seemed to be yet another Linux distribution. That outwardly generic sounding name, Void Linux, kept poking my curiosity by being like Arch Linux in the old days, while sharing some substantial DNA with the BSD operating systems. Yet, that&rsquo;s another story I might tell another day, but to remain brief, the BSDs, in particular the infamous OpenBSD with its quite infamous lead developer Theo De Raadt, always were what I considered the endgame. The holy grail of Unix operating systems, so did I think over the decades, FreeBSD, NetBSD and OpenBSD, have always been on my personal radar and I had to earn the capacity to be able to properly put them at use one day. Last year, when I made the (almost painless) switch from Arch Linux to Void Linux, the simplicity and especially the barebone experience of Void reignited the fascination and the admiration I always had for the BSD operating systems and their philosophy.</p>
+<p>Around six months ago, I decided to ditch my long in the tooth Arch-based setup on my belovest Thinkpad X1 Carbon. I&rsquo;ve been very loyal over the years, and almost came to belive that Arch will be a constant in my adult life. While I kept up with upcoming technologies, I somehow lost track of the ever so diversifying landscape of Linux distributions. It took me a while of constantly coming across a generically named reference to what seemed to be yet another Linux distribution. That outwardly generic sounding name, Void Linux, kept poking my curiosity by supposedly feeling like Arch Linux in the old days, while sharing some substantial DNA with the BSD operating systems. Yet, that&rsquo;s another story I might tell another day, but to remain brief, the BSDs, in particular the infamous OpenBSD with its quite infamous lead developer Theo De Raadt, always were what I considered the endgame. The holy grail of Unix operating systems, so did I think over the decades, FreeBSD, NetBSD and OpenBSD, have always been on my personal radar and I felt I had to earn the intellectual capacity to be able to properly put them at use one day. Last year, when I made the (almost painless) switch from Arch Linux to Void Linux, the simplicity and especially the barebone experience of Void reignited the fascination and the admiration I always had for the BSD operating systems and their philosophy.</p>
 <p>While I could write (and definitely will in the near future) about how my journey onto Void Linux and how it has been so far, I preferred to write down, in some like diary, and document every step on how one can approach and ultimately use OpenBSD in 2023. Big disclaimer, I&rsquo;ve yet to install OpenBSD on some baremetal server I ordered some days ago, but dabbled around in the meantime with OS-level virtualization in order to get it running. That&rsquo;s what brings me to <em>libvirt</em> and my surprise to learn that I wouldn&rsquo;t need some full-fledged virtualization solution like the ones offered by VirtualBox or VMWare to efficiently run a virtualized OpenBSD machine.</p>
 <h3 id=from-void-to-openbsd>
 <a href=#from-void-to-openbsd class=anchor><svg class="icon" aria-hidden="true" focusable="false" height="16" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5.0-3-1.69-3-3.5S2.55 3 4 3h4c1.45.0 3 1.69 3 3.5.0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98.0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98.0-2-1.22-2-2.5.0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45.0 3-1.69 3-3.5S14.5 6 13 6z"/></svg>
@@ -257,8 +257,8 @@ Domain <span class=s1>&#39;openbsd&#39;</span> started
 </div>
 <div class=container>
 <nav class="flex container suggested">
-<a rel=next href=/articles/hello-and-outlook/ title="Next post (newer)">
-<span>Next</span>
+<a rel=prev href=/articles/hello-and-outlook/ title="Previous post (older)">
+<span>Previous</span>
 Hello and outlook
 </a>
 </nav>

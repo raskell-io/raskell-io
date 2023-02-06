@@ -1,42 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raskell</title><link>https://raskell.io/</link><description>Recent content on Raskell</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://raskell.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Hello and outlook</title><link>https://raskell.io/articles/hello-and-outlook/</link><pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate><author>Raffael</author><guid>https://raskell.io/articles/hello-and-outlook/</guid><description>
-&lt;p>&lt;img loading="lazy"
-src="https://raskell.io/hello-world.png"
-alt="hello-world.png"
-width=960
-height="300" />&lt;/p>
-&lt;h2 id="hello-world">
-&lt;a href="#hello-world" class="anchor">
-&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
-&lt;path fill-rule="evenodd"
-d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-&lt;/path>
-&lt;/svg>
-&lt;/a>
-Hello world
-&lt;/h2>
-&lt;p>Welcome to my tech blog! My name is Raffael Schneider and I am excited to share my rumings about the state of tech, open-source, and the life as a software developer with you.&lt;/p>
-&lt;p>In this first post, I wanted to introduce myself and explain what you can expect to find on this blog. I have been working in the tech industry for several years, and I have experience with a variety of technologies, programming languages, and operating systems. I have a strong interest in open-source software and the principles of open collaboration and sharing that underpin it. Also, I have a passion for tech hardware and the funtional restoration of discarded equipment. The freedom to express oneself with technology to make the world a more comfortable place is a strong focus of mine.&lt;/p>
-&lt;h2 id="outlook">
-&lt;a href="#outlook" class="anchor">
-&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
-&lt;path fill-rule="evenodd"
-d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
-&lt;/path>
-&lt;/svg>
-&lt;/a>
-Outlook
-&lt;/h2>
-&lt;p>On this blog, I will be covering a wide range of topics related to technology in general, open-source, operating systems, programming, and tech hardware. Some of the things you can expect to find include:&lt;/p>
-&lt;ul>
-&lt;li>My dabblings into new and bleeding-edge technologies in general&lt;/li>
-&lt;li>My experience in using Linux, BSDs, and embedded operating systems&lt;/li>
-&lt;li>Exploration of new and exciting open-source projects&lt;/li>
-&lt;li>Discussion of the latest technology trends and innovations&lt;/li>
-&lt;li>Personal musings and insights into the tech industry&lt;/li>
-&lt;/ul>
-&lt;p>I believe that technology has the power to change the world, and I am excited to be a small part of that change. I hope that this blog will serve as a valuable resource for anyone interested in technology, open-source, Linux, OpenBSD, and programming. I will be posting new content on a regular basis, so be sure to check back often.&lt;/p>
-&lt;p>In my next post, I will dive into a specific topic and share my knowledge and experience. I want to make sure that my readers will learn something new every time they visit my blog.&lt;/p>
-&lt;p>Thank you for visiting, and I look forward to connecting with you on social media or in real life.&lt;/p></description></item><item><title>My OpenBSD journey: Getting it virtualized with libvirt (1)</title><link>https://raskell.io/articles/my-openbsd-journey-getting-it-virtualized-with-libvirt-1/</link><pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate><author>Raffael</author><guid>https://raskell.io/articles/my-openbsd-journey-getting-it-virtualized-with-libvirt-1/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Raskell</title><link>https://raskell.io/</link><description>Recent content on Raskell</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 06 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://raskell.io/index.xml" rel="self" type="application/rss+xml"/><item><title>My OpenBSD journey: Getting it virtualized with libvirt (1)</title><link>https://raskell.io/articles/my-openbsd-journey-getting-it-virtualized-with-libvirt-1/</link><pubDate>Mon, 06 Feb 2023 00:00:00 +0000</pubDate><author>Raffael</author><guid>https://raskell.io/articles/my-openbsd-journey-getting-it-virtualized-with-libvirt-1/</guid><description>
 &lt;p>&lt;img loading="lazy"
 src="https://raskell.io/openbsd-libvirt.png"
 alt="openbsd-libvirt.png"
@@ -52,7 +14,7 @@ d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.
 &lt;/a>
 Void Linux as my daily driver
 &lt;/h2>
-&lt;p>Around six months ago, I decided to ditch my long in the tooth Arch-based setup on my belovest Thinkpad X1 Carbon. I&amp;rsquo;ve been very loyal over the years, and almost came to belive that Arch will be a constant in my adult life. While I kept up with upcoming technologies, I somehow lost track of the ever so diversifying landscape of Linux distributions. It took me a while of constantly coming across a generically named reference to what seemed to be yet another Linux distribution. That outwardly generic sounding name, Void Linux, kept poking my curiosity by being like Arch Linux in the old days, while sharing some substantial DNA with the BSD operating systems. Yet, that&amp;rsquo;s another story I might tell another day, but to remain brief, the BSDs, in particular the infamous OpenBSD with its quite infamous lead developer Theo De Raadt, always were what I considered the endgame. The holy grail of Unix operating systems, so did I think over the decades, FreeBSD, NetBSD and OpenBSD, have always been on my personal radar and I had to earn the capacity to be able to properly put them at use one day. Last year, when I made the (almost painless) switch from Arch Linux to Void Linux, the simplicity and especially the barebone experience of Void reignited the fascination and the admiration I always had for the BSD operating systems and their philosophy.&lt;/p>
+&lt;p>Around six months ago, I decided to ditch my long in the tooth Arch-based setup on my belovest Thinkpad X1 Carbon. I&amp;rsquo;ve been very loyal over the years, and almost came to belive that Arch will be a constant in my adult life. While I kept up with upcoming technologies, I somehow lost track of the ever so diversifying landscape of Linux distributions. It took me a while of constantly coming across a generically named reference to what seemed to be yet another Linux distribution. That outwardly generic sounding name, Void Linux, kept poking my curiosity by supposedly feeling like Arch Linux in the old days, while sharing some substantial DNA with the BSD operating systems. Yet, that&amp;rsquo;s another story I might tell another day, but to remain brief, the BSDs, in particular the infamous OpenBSD with its quite infamous lead developer Theo De Raadt, always were what I considered the endgame. The holy grail of Unix operating systems, so did I think over the decades, FreeBSD, NetBSD and OpenBSD, have always been on my personal radar and I felt I had to earn the intellectual capacity to be able to properly put them at use one day. Last year, when I made the (almost painless) switch from Arch Linux to Void Linux, the simplicity and especially the barebone experience of Void reignited the fascination and the admiration I always had for the BSD operating systems and their philosophy.&lt;/p>
 &lt;p>While I could write (and definitely will in the near future) about how my journey onto Void Linux and how it has been so far, I preferred to write down, in some like diary, and document every step on how one can approach and ultimately use OpenBSD in 2023. Big disclaimer, I&amp;rsquo;ve yet to install OpenBSD on some baremetal server I ordered some days ago, but dabbled around in the meantime with OS-level virtualization in order to get it running. That&amp;rsquo;s what brings me to &lt;em>libvirt&lt;/em> and my surprise to learn that I wouldn&amp;rsquo;t need some full-fledged virtualization solution like the ones offered by VirtualBox or VMWare to efficiently run a virtualized OpenBSD machine.&lt;/p>
 &lt;h3 id="from-void-to-openbsd">
 &lt;a href="#from-void-to-openbsd" class="anchor">
@@ -257,4 +219,42 @@ qemu:///system start openbsd
 Domain &lt;span class="s1">&amp;#39;openbsd&amp;#39;&lt;/span> started
 &lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>{tbc}&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;p>{tbc}&lt;/p></description></item><item><title>Hello and outlook</title><link>https://raskell.io/articles/hello-and-outlook/</link><pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate><author>Raffael</author><guid>https://raskell.io/articles/hello-and-outlook/</guid><description>
+&lt;p>&lt;img loading="lazy"
+src="https://raskell.io/hello-world.png"
+alt="hello-world.png"
+width=960
+height="300" />&lt;/p>
+&lt;h2 id="hello-world">
+&lt;a href="#hello-world" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Hello world
+&lt;/h2>
+&lt;p>Welcome to my tech blog! My name is Raffael Schneider and I am excited to share my rumings about the state of tech, open-source, and the life as a software developer with you.&lt;/p>
+&lt;p>In this first post, I wanted to introduce myself and explain what you can expect to find on this blog. I have been working in the tech industry for several years, and I have experience with a variety of technologies, programming languages, and operating systems. I have a strong interest in open-source software and the principles of open collaboration and sharing that underpin it. Also, I have a passion for tech hardware and the funtional restoration of discarded equipment. The freedom to express oneself with technology to make the world a more comfortable place is a strong focus of mine.&lt;/p>
+&lt;h2 id="outlook">
+&lt;a href="#outlook" class="anchor">
+&lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
+&lt;path fill-rule="evenodd"
+d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z">
+&lt;/path>
+&lt;/svg>
+&lt;/a>
+Outlook
+&lt;/h2>
+&lt;p>On this blog, I will be covering a wide range of topics related to technology in general, open-source, operating systems, programming, and tech hardware. Some of the things you can expect to find include:&lt;/p>
+&lt;ul>
+&lt;li>My dabblings into new and bleeding-edge technologies in general&lt;/li>
+&lt;li>My experience in using Linux, BSDs, and embedded operating systems&lt;/li>
+&lt;li>Exploration of new and exciting open-source projects&lt;/li>
+&lt;li>Discussion of the latest technology trends and innovations&lt;/li>
+&lt;li>Personal musings and insights into the tech industry&lt;/li>
+&lt;/ul>
+&lt;p>I believe that technology has the power to change the world, and I am excited to be a small part of that change. I hope that this blog will serve as a valuable resource for anyone interested in technology, open-source, Linux, OpenBSD, and programming. I will be posting new content on a regular basis, so be sure to check back often.&lt;/p>
+&lt;p>In my next post, I will dive into a specific topic and share my knowledge and experience. I want to make sure that my readers will learn something new every time they visit my blog.&lt;/p>
+&lt;p>Thank you for visiting, and I look forward to connecting with you on social media or in real life.&lt;/p></description></item></channel></rss>
