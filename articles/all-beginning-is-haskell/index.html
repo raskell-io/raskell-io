@@ -88,12 +88,12 @@ The Lambda is the new Alpha
 <p>Like the lambda calculus, Haskell is based on the principles of functional programming, which emphasize the use of pure functions and immutable data structures. In Haskell, functions are first-class citizens that can be passed around and composed just like any other data type. This allows Haskell programmers to create powerful abstractions and write code that is more modular and reusable than in imperative languages like C++ or Java.</p>
 <p>Haskell&rsquo;s type system is also inspired by the lambda calculus, and includes features like type inference, type classes, and higher-kinded types. This allows Haskell programmers to write code that is both statically typed and expressive, reducing the potential for errors while still allowing for elegant and concise code.</p>
 <p>Here&rsquo;s an example of a lambda calculus expression that represents the addition of two numbers:</p>
-<p>$ (λx.λy.x + y) $</p>
+<p>$$ (λx.λy.x + y) $$</p>
 <p>In this expression, λx represents a function that takes an input x, and λy represents a function that takes an input y. The expression x + y represents the sum of x and y.</p>
 <p>To use this expression to add two numbers, we apply it to two arguments:</p>
-<p>$ (λx.λy.x + y) 3 4 $</p>
+<p>$$ (λx.λy.x + y) 3 4 $$</p>
 <p>In this case, the expression is applied to the arguments 3 and 4, resulting in the following computation:</p>
-<p>$ (λy.3 + y) 4 $</p>
+<p>$$ (λy.3 + y) 4 $$</p>
 <p>In this expression, the function λx has been replaced with the value 3, resulting in a new function that takes an input y and adds it to 3. This function is then applied to the argument 4, resulting in the value 7.</p>
 <p>This example demonstrates the basic principles of the lambda calculus, where functions are used to represent computations and can be composed and applied in a way that is similar to arithmetic operations. These principles form the basis of functional programming, and have been influential in the development of languages like Haskell, which was designed to be closely aligned with the lambda calculus.</p>
 <h2 id=one-type-system-to-rule-them-all>
@@ -268,6 +268,9 @@ My OpenBSD journey: Getting it virtualized with libvirt (1)
 <a href=/index.xml>RSS</a>
 </nav>
 </section>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css integrity=sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc crossorigin=anonymous>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js integrity=sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous onload="renderMathInElement(document.querySelector('.article-post'),{delimiters:[{left:'$$',right:'$$',display:!0},{left:'$',right:'$',display:!1},{left:'\\(',right:'\\)',display:!1},{left:'\\[',right:'\\]',display:!0}]})"></script>
 <script defer src=/ts/features.aeccc1b543daef772e7584f28d3bc3e21c62dfd259256c435908dbe148b24c6c.js data-enable-footnotes=true></script>
 </footer>
 </body>
