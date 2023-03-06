@@ -162,6 +162,26 @@ From pure functions to easy refactoring
 &lt;/div>
 &lt;/div>&lt;p>The memoize function takes a function and returns a memoized version of it. This means that the function&amp;rsquo;s results are cached for future calls with the same arguments, improving performance.&lt;/p>
 &lt;p>Note that we didn&amp;rsquo;t need to change any of the code that calls the factorial function. This is because the function&amp;rsquo;s type signature didn&amp;rsquo;t change, and its behavior is still the same. This is an example of how easy refactoring can be in Haskell. By focusing on pure functions and immutability, Haskell makes it easy to modify code without introducing bugs or breaking existing functionality.&lt;/p>
+&lt;p>The absence of side effects and the use of pure functions can greatly aid in reasoning about code. By eliminating side effects and enforcing purity, it becomes much easier to reason about the behavior of a program and to understand its logic.&lt;/p>
+&lt;p>Here are some ways in which pure functions and the absence of side effects help with reasoning about code:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Predictability: Since pure functions do not have side effects, their behavior is entirely determined by their inputs. This makes it easy to predict the output of a pure function given a particular input, making it easier to reason about the behavior of the program as a whole.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Testability: Pure functions are easy to test because their behavior is entirely determined by their inputs. This makes it easy to write automated tests for pure functions, ensuring that they behave correctly and that any changes to their behavior can be caught early on.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Modularity: Pure functions are highly modular because they can be composed and reused in a variety of ways. Since they do not have side effects, they can be combined and used in a wide range of contexts without introducing unexpected behavior or side effects.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Reasoning about state: Pure functions make it easy to reason about the state of a program because they do not modify state. This makes it easier to understand the flow of data through a program and to reason about the relationships between different parts of the program.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>The absence of side effects and the use of pure functions can greatly aid in reasoning about code by making it more predictable, testable, modular, and easier to understand. By enforcing purity and avoiding side effects, functional programming languages like Haskell can make it easier to reason about the behavior of complex programs, leading to more robust and maintainable code.&lt;/p>
+&lt;p>The use of pure functions and the absence of side effects can greatly improve the refactoring potential and code maintainability of a program.&lt;/p>
+&lt;p>Refactoring is the process of changing the structure of a program without changing its behavior. This can involve adding new features, improving performance, or making the code more modular and reusable. By using pure functions and avoiding side effects, it becomes much easier to refactor a program without introducing unexpected behavior or breaking existing functionality.&lt;/p>
+&lt;p>By using pure functions and avoiding side effects, functional programming languages like Haskell make it easier to refactor code without introducing bugs or unintended behavior. This improves code maintainability by making it easier to modify and update the codebase over time, reducing the risk of introducing new bugs or breaking existing functionality.&lt;/p>
 &lt;h2 id="purity-as-a-design-goal">
 &lt;a href="#purity-as-a-design-goal" class="anchor">
 &lt;svg class="icon" aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16">
